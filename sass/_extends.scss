@@ -1,0 +1,32 @@
+// %slide {
+//   position: relative;
+//   height: 200px;
+// }
+
+// %rec {
+//   position: absolute;
+//   width: 220px;
+//   height: 140px;
+//   border-top: 1px solid $color-font;
+//   border-bottom: 1px solid $color-font;
+//   border-left: 1px solid $color-font;
+//   border-right: 1px solid $color-font;
+// }
+
+%slide_img {
+  // position: absolute;
+  width: 220px;
+  height: auto;
+  z-index: 2;
+  background-color: $color-white;
+  padding: 30px 20px;
+}
+
+%circle {
+  border: 50px solid $color-primary;
+  position: absolute;
+  z-index: 0;
+}
+
+
+

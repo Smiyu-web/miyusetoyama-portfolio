@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: $color-font;
+}
+
+h1 {
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Charmonman', cursive;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: .7em;
+  font-weight: 100;
+}
+
+h6 {
+  font-size: .5em;
+  font-weight: 300;
+}
+
+p {
+
+}
+
+li {
+  list-style: none;
+}
+
+a{ 
+  color: $color-font;
+	text-decoration: none;
+}
+
+hr {
+  width: 80%;
+  margin-top: 1em;
+}
+
+section {
+  height: 100%;
+  padding: 50px;
+}
+
+.circle {
+  border: 1px solid $color-gray-darker;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}

@@ -1,0 +1,24 @@
+footer {
+  padding: 0 50px;
+
+  position: relative;
+
+
+  img {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    width: 150px;
+  }
+
+  .fot_container {
+    background-color: $color-gray-lighter;
+    padding: 250px 0;
+    text-align: center;
+  }
+
+  h6 {
+    text-align: right;
+    margin-top: 20px;
+  }
+}

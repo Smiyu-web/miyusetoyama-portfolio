@@ -1,0 +1,59 @@
+#aboutme {
+  // padding-bottom: 0;
+
+  img:nth-child(1) {
+    width: 375px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 90%, 55% 90%, 55% 100%, 0 100%, 0 0);
+  }
+
+  h1 {
+    padding-top: 50px;
+  }
+
+  h5 {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .profile {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 1.3em;
+
+    margin-top: 40px;
+
+    div {
+      width: 100px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h6 {
+      &:nth-child(1) {
+        margin-bottom: 2px;
+        margin-top: 20px;
+      }
+      &:nth-child(2) {
+        padding-top: 5px;
+        border-top: 1px solid $color-gray-darker;
+      }
+    }
+  }
+
+  .triangle_container {
+    position: relative;
+    width: 100px;;
+
+    .triangle2 {
+      position: absolute;
+      top: -20px;
+      left: -50px;
+
+      transform: rotate(50deg);
+      width: 200px;
+  
+    }
+  }
+}
