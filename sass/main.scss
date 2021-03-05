@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Nunito+Sans:wght@200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+@import "https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css";
 
 @import "variables";
 @import "extends";
+@import "keyframes";
 @import "base";
 @import "sidebar";
 @import "header";
@@ -12,5 +14,9 @@
 @import "blogs";
 @import "arrow";
 @import "footer";
+@import "animation";
+@import "loading";
+
+
 
 

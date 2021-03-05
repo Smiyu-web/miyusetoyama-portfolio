@@ -1,8 +1,6 @@
 footer {
   padding: 0 50px;
-
   position: relative;
-
 
   img {
     position: absolute;
@@ -20,5 +18,29 @@ footer {
   h6 {
     text-align: right;
     margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 0 100px;  
+  
+    img {
+      top: -30px;
+      left: 40px;
+      width: 200px;
+    }
+  
+    .fot_container {
+      padding: 120px 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    img {
+      left: 60px;
+    }
   }
 }

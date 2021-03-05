@@ -1,0 +1,29 @@
+.sq1_container {
+  position: relative;
+  width: 100px;;
+
+  .sq1 {
+    position: absolute;
+    top: 200px;
+    left: -50px;
+
+    transform: rotate(50deg);
+    width: 200px;
+    z-index: 0;
+  }
+}
+
+.sq2_container {
+  position: relative;
+  width: 100%;
+
+  .sq2 {
+    position: absolute;
+    top: -20px;
+    right: 0px;
+
+    transform: rotate(50deg);
+    width: 120px;
+    z-index: 0;
+  }
+}

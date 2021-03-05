@@ -1,31 +1,33 @@
 #sidebar {
   position: fixed;
-  width: 10%;
-  bottom: 0;
+  width: 50px;
+  height: 100vh;
 
-  .sidebar_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    z-index: 100;
-    top: 0;
-    left: 0;
-    
-    ul {
+    .sidebar_container {
+      position: absolute;
       display: flex;
       flex-direction: column;
-      margin-top: 200px;
-
-      li {
-        margin-bottom: 10px;
+      // align-items: center;
+      bottom: 0;
+      left: 17px;
+  
+      z-index: 9999;
+      
+      ul {
+        display: flex;
+        flex-direction: column;
+        padding-top: 200px;
+  
+        li {
+          padding-bottom: 10px;
+        }
       }
     }
-  }
-
-  h5 {
-    -ms-writing-mode     : tb-rl;
-    -webkit-writing-mode : vertical-rl;
-    writing-mode         : vertical-rl;
-  }
+  
+    h5 {
+      -ms-writing-mode     : tb-rl;
+      -webkit-writing-mode : vertical-rl;
+      writing-mode         : vertical-rl;
+    }
+  
 }
