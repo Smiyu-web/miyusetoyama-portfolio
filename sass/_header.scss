@@ -12,11 +12,10 @@ header {
 
     img {
       position: absolute;
-      top: 70px;
+      top: 18%;
       opacity: 0;
       width: 300px;
       height: auto;
-      margin-top: 100px;
       z-index: 3;
       animation-name: SlideBottomTop;
       animation-duration: 3s;
@@ -29,8 +28,8 @@ header {
     img {
       opacity: 0;
       position: absolute;
-      top: 460px;
-      right: -80px;
+      top: 60%;
+      right: -6%;
       width: 350px;
       z-index: 4;
       transform: rotate(90deg);
@@ -50,8 +49,8 @@ header {
     display: inline-block;
 
     position: absolute;
-    top: 45%;
-    right: 0px;
+    top: 35%;
+    right: 0;
     z-index: 1;
 
     animation-name: FadeIn;
@@ -63,8 +62,8 @@ header {
   .triangle {
     opacity: 0;
     position: absolute;
-    top: 500px;
-    left: 0px;
+    top: 60%;
+    left: 0;
     animation:rotate-z 2s;
     -webkit-animation:rotate-z 2s;
     animation-duration: 2s;
@@ -81,7 +80,7 @@ header {
     .img_container {
 
       img {
-        top: 50px;
+        top: 20%;
         width: 450px;
       }
     }
@@ -147,47 +146,9 @@ header {
   }
 }
 
-// @media (min-width: 1440px) {
-//   #hero {
-//     .img_container {
-//       margin-right: 200px;
-//       padding-top: 300px;
-
-//       img {
-//         width: 800px;
-//         right: 150px;
-//       }
-//     }
-
-//     .logo_container {
-//       img {
-//         top: 600px;
-//         left: 180px;
-//         width: 850px;
-//       }
-//     }
-
-//     .circle {
-//       width: 600px;
-//       height: 600px;
-//       top: 550px;
-//       left: 400px;
-
-//     }
-
-//     .triangle {
-//       width: 700px;
-//       top: 100px;
-//       left: 500px;
-//     }
-//   }
-// }
 @media (min-width: 1440px) {
   #hero {
     .img_container {
-      // margin-right: 200px;
-      // padding-top: 0px;
-
       img {
         width: 600px;
         top: 140px;
