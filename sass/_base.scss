@@ -25,7 +25,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1em;
+  font-size: .8em;
   font-weight: 400;
 }
 
@@ -40,14 +40,15 @@ h6 {
 }
 
 p {
-
+  font-size: .5em;
+  font-weight: 300;
 }
 
 li {
   list-style: none;
 }
 
-a{ 
+a { 
   color: $color-font;
 	text-decoration: none;
 }
@@ -57,20 +58,20 @@ hr {
   margin-top: 1em;
 }
 
-section {
-
-}
-
 @media (min-width: 768px) {
   section {
     height: 100%;
-    // padding: 0 100px;
   }
 }
 
 @media (min-width: 1024px) {
   h1 {
     font-size: 2em
+  }
+
+  h4 {
+    font-size: 1em;
+    font-weight: 400;
   }
 
   h5 {
@@ -83,8 +84,31 @@ section {
   }
   
   p {
-  
-  }
+    font-size: .7em;
 
+  }
 }
 
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 2em
+  }
+
+  h4 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+  h5 {
+    font-size: 1.2em;
+  }
+
+  h6 {
+    font-size: 1em;
+    font-weight: 300;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+}

@@ -1,14 +1,9 @@
 header {
   height: 100vh;
-  // overflow: hidden;
 }
 
 #hero {
-  // height: 100vh;
   top: 0;
-  // overflow: hidden;
-  // position: relative;
-  
   
   .img_container {
     display: flex;
@@ -16,15 +11,15 @@ header {
 
     img {
       position: absolute;
-      top: 0;
+      top: 70px;
       opacity: 0;
-      width: 280px;
+      width: 300px;
       height: auto;
       margin-top: 100px;
       z-index: 3;
       animation-name: SlideBottomTop;
       animation-duration: 3s;
-      // animation-delay: 6.5s;
+      animation-delay: 6.5s;
       animation-fill-mode: forwards
     }
   }
@@ -33,14 +28,14 @@ header {
     img {
       opacity: 0;
       position: absolute;
-      top: 400px;
+      top: 460px;
       right: -80px;
       width: 350px;
       z-index: 4;
       transform: rotate(90deg);
       animation-name: FadeIn;
       animation-duration: 2s;
-      // animation-delay: 6s;
+      animation-delay: 6s;
       animation-fill-mode: forwards;
     }
   }
@@ -54,25 +49,25 @@ header {
     display: inline-block;
 
     position: absolute;
-    top: 40%;
+    top: 45%;
     right: 0px;
     z-index: 1;
 
     animation-name: FadeIn;
     animation-duration: 3s;
-    // animation-delay: 6s;
+    animation-delay: 6s;
     animation-fill-mode: forwards;
   }
 
   .triangle {
     opacity: 0;
     position: absolute;
-    top: 400px;
+    top: 500px;
     left: 0px;
     animation:rotate-z 2s;
     -webkit-animation:rotate-z 2s;
     animation-duration: 2s;
-    // animation-delay: 7s;
+    animation-delay: 7s;
     animation-fill-mode: forwards;
 
     width: 320px;
@@ -83,36 +78,35 @@ header {
 @media (min-width: 768px) {
   #hero {
     .img_container {
-      // justify-content: flex-end;
-      // padding-right: 50px;
 
       img {
-        width: 500px;
+        top: 50px;
+        width: 450px;
       }
     }
 
     .logo_container {
       img {
         width: 500px;
-        top: 600px;
+        top: 450px;
         left: 80px;
         transform: rotate(0deg);
       }
     }
 
     .circle {
-      width: 400px;
-      height: 400px;
-      top: 600px;
+      width: 350px;
+      height: 350px;
+      top: 480px;
       right: 0px;
     }
 
     .triangle {
       position: absolute;
       transform: rotate(-10deg);
-      width: 250px;
-      top: 400px;
-      left: 300px;
+      width: 300px;
+      top: 500px;
+      left: 200px;
     }
   }
 }
@@ -120,17 +114,20 @@ header {
 @media (min-width: 1024px) {
   #hero {
     .img_container {
-      margin-right: 100px;
-      padding-top: 200px;
+      justify-content: flex-end;
 
       img {
         width: 450px;
+        top: 170px;
+        right: 60px;
+
       }
     }
 
     .logo_container {
       img {
-        top: 220px;
+        right: 0;
+        top: 460px;
       }
     }
 
@@ -138,12 +135,12 @@ header {
       width: 400px;
       height: 400px;
       top: 320px;
-      right: 500px;
+      right: 400px;
     }
 
     .triangle {
       width: 400px;
-      top: 50px;
+      top: 80px;
       left: 200px;
     }
   }
@@ -156,14 +153,15 @@ header {
       padding-top: 300px;
 
       img {
-        width: 700px;
+        width: 800px;
+        right: 150px;
       }
     }
 
     .logo_container {
       img {
-        top: 370px;
-        left: 300px;
+        top: 600px;
+        left: 180px;
         width: 850px;
       }
     }
@@ -171,14 +169,14 @@ header {
     .circle {
       width: 600px;
       height: 600px;
-      top: 520px;
-      left: 300px;
+      top: 550px;
+      left: 400px;
 
     }
 
     .triangle {
-      width: 600px;
-      top: 0px;
+      width: 700px;
+      top: 100px;
       left: 500px;
     }
   }

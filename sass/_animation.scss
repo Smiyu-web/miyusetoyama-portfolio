@@ -1,6 +1,6 @@
 .sq1_container {
   position: relative;
-  width: 100px;;
+  width: 100%;
 
   .sq1 {
     position: absolute;
@@ -25,5 +25,21 @@
     transform: rotate(50deg);
     width: 120px;
     z-index: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sq1_container {
+    .sq1 {
+      width: 400px;
+    }
+  }
+
+  .sq2_container {
+    width: 100%;
+  
+    .sq2 {
+      width: 200px;
+    }
   }
 }

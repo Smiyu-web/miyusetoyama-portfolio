@@ -19,3 +19,28 @@
   animation: hideLoading 1s linear 0s;
   animation-fill-mode: forwards;
 }
+
+@media (min-width: 768px) {
+  .loadning {
+    video {
+      width: 500px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #loading {
+    video {
+      width: 500px;
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  #loading {
+    video {
+      width: 500px;
+    }
+  }
+}

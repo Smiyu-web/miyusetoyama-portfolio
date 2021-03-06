@@ -25,7 +25,7 @@
 
 @media (min-width: 1440px) {
   #works .sliders .slide_left, #works .sliders .slide_right {
-    height: 500px; }
+    height: 600px; }
   #works .sliders .slide_left div:nth-child(1) img, #works .sliders .slide_right img {
     width: 600px;
     padding: 100px 60px; } }
@@ -107,7 +107,7 @@ h3 {
   font-weight: 100; }
 
 h4 {
-  font-size: 1em;
+  font-size: .8em;
   font-weight: 400; }
 
 h5 {
@@ -115,6 +115,10 @@ h5 {
   font-weight: 100; }
 
 h6 {
+  font-size: .5em;
+  font-weight: 300; }
+
+p {
   font-size: .5em;
   font-weight: 300; }
 
@@ -136,11 +140,30 @@ hr {
 @media (min-width: 1024px) {
   h1 {
     font-size: 2em; }
+  h4 {
+    font-size: 1em;
+    font-weight: 400; }
   h5 {
     font-size: .9em; }
   h6 {
     font-size: .8em;
-    font-weight: 300; } }
+    font-weight: 300; }
+  p {
+    font-size: .7em; } }
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 2em; }
+  h4 {
+    font-size: 1em;
+    font-weight: 400; }
+  h5 {
+    font-size: 1.2em; }
+  h6 {
+    font-size: 1em;
+    font-weight: 300; }
+  p {
+    font-size: 1em; } }
 
 #sidebar {
   position: fixed;
@@ -159,7 +182,7 @@ hr {
       padding-top: 200px; }
       #sidebar .sidebar_container ul li {
         padding-bottom: 10px; }
-  #sidebar h5 {
+  #sidebar p {
     -ms-writing-mode: tb-rl;
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl; }
@@ -174,25 +197,27 @@ header {
     justify-content: center; }
     #hero .img_container img {
       position: absolute;
-      top: 0;
+      top: 70px;
       opacity: 0;
-      width: 280px;
+      width: 300px;
       height: auto;
       margin-top: 100px;
       z-index: 3;
       animation-name: SlideBottomTop;
       animation-duration: 3s;
+      animation-delay: 6.5s;
       animation-fill-mode: forwards; }
   #hero .logo_container img {
     opacity: 0;
     position: absolute;
-    top: 400px;
+    top: 460px;
     right: -80px;
     width: 350px;
     z-index: 4;
     transform: rotate(90deg);
     animation-name: FadeIn;
     animation-duration: 2s;
+    animation-delay: 6s;
     animation-fill-mode: forwards; }
   #hero .circle {
     opacity: 0;
@@ -202,59 +227,64 @@ header {
     height: 300px;
     display: inline-block;
     position: absolute;
-    top: 40%;
+    top: 45%;
     right: 0px;
     z-index: 1;
     animation-name: FadeIn;
     animation-duration: 3s;
+    animation-delay: 6s;
     animation-fill-mode: forwards; }
   #hero .triangle {
     opacity: 0;
     position: absolute;
-    top: 400px;
+    top: 500px;
     left: 0px;
     animation: rotate-z 2s;
     -webkit-animation: rotate-z 2s;
     animation-duration: 2s;
+    animation-delay: 7s;
     animation-fill-mode: forwards;
     width: 320px; }
 
 @media (min-width: 768px) {
   #hero .img_container img {
-    width: 500px; }
+    top: 50px;
+    width: 450px; }
   #hero .logo_container img {
     width: 500px;
-    top: 600px;
+    top: 450px;
     left: 80px;
     transform: rotate(0deg); }
   #hero .circle {
-    width: 400px;
-    height: 400px;
-    top: 600px;
+    width: 350px;
+    height: 350px;
+    top: 480px;
     right: 0px; }
   #hero .triangle {
     position: absolute;
     transform: rotate(-10deg);
-    width: 250px;
-    top: 400px;
-    left: 300px; } }
+    width: 300px;
+    top: 500px;
+    left: 200px; } }
 
 @media (min-width: 1024px) {
   #hero .img_container {
-    margin-right: 100px;
-    padding-top: 200px; }
+    justify-content: flex-end; }
     #hero .img_container img {
-      width: 450px; }
+      width: 450px;
+      top: 170px;
+      right: 60px; }
   #hero .logo_container img {
-    top: 220px; }
+    right: 0;
+    top: 460px; }
   #hero .circle {
     width: 400px;
     height: 400px;
     top: 320px;
-    right: 500px; }
+    right: 400px; }
   #hero .triangle {
     width: 400px;
-    top: 50px;
+    top: 80px;
     left: 200px; } }
 
 @media (min-width: 1440px) {
@@ -262,19 +292,20 @@ header {
     margin-right: 200px;
     padding-top: 300px; }
     #hero .img_container img {
-      width: 700px; }
+      width: 800px;
+      right: 150px; }
   #hero .logo_container img {
-    top: 370px;
-    left: 300px;
+    top: 600px;
+    left: 180px;
     width: 850px; }
   #hero .circle {
     width: 600px;
     height: 600px;
-    top: 520px;
-    left: 300px; }
+    top: 550px;
+    left: 400px; }
   #hero .triangle {
-    width: 600px;
-    top: 0px;
+    width: 700px;
+    top: 100px;
     left: 500px; } }
 
 .open {
@@ -383,7 +414,7 @@ header {
     width: 375px;
     clip-path: polygon(50% 0%, 100% 0, 100% 100%, 44% 100%, 44% 89%, 0 89%, 0 0); }
   #aboutme h1 {
-    padding-top: 40px; }
+    padding-top: 60px; }
   #aboutme h5 {
     text-align: center;
     padding: 0 20px; }
@@ -393,7 +424,7 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 1.3em;
-    margin-top: 20px; }
+    margin-top: 50px; }
     #aboutme .profile div {
       width: 100px; }
     #aboutme .profile h6:nth-child(1) {
@@ -408,15 +439,17 @@ header {
     display: flex;
     justify-content: flex-end; }
     #aboutme .img_container img {
-      width: 450px; }
+      width: 550px; }
   #aboutme .container {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px; }
+    padding-right: 100px;
+    padding-left: 50px; }
     #aboutme .container h5 {
       width: 50%; }
     #aboutme .container .profile {
-      margin-top: 0px; }
+      margin-top: 0px;
+      grid-column-gap: 2em; }
       #aboutme .container .profile div {
         width: 100px;
         margin-bottom: 15px; }
@@ -425,9 +458,9 @@ header {
 
 @media (min-width: 1024px) {
   #aboutme .img_container img {
-    width: 500px; }
-  #aboutme .aboutme_container {
-    padding: 0 100px; }
+    width: 600px; }
+  #aboutme h1 {
+    padding: 30px 0; }
   #aboutme .container h5 {
     width: 50%; }
   #aboutme .container .profile {
@@ -435,23 +468,23 @@ header {
     #aboutme .container .profile div {
       width: 150px;
       margin-bottom: 15px; }
-    #aboutme .container .profile h6:nth-child(1) {
-      margin-top: 0px; } }
+    #aboutme .container .profile h6:nth-child(2) {
+      padding-left: 30px; } }
 
 @media (min-width: 1440px) {
   #aboutme .img_container img {
-    width: 1000px; }
+    width: 900px; }
   #aboutme h1 {
-    padding: 0; }
+    padding-bottom: 60px; }
   #aboutme .aboutme_container {
-    padding: 0 100px; }
+    padding: 0 200px; }
   #aboutme .container h5 {
     width: 50%; }
   #aboutme .container .profile {
-    grid-column-gap: 3em; }
+    grid-column-gap: 5em; }
     #aboutme .container .profile div {
-      width: 150px;
-      margin-bottom: 15px; }
+      width: 250px;
+      margin-bottom: 30px; }
     #aboutme .container .profile h6:nth-child(1) {
       margin-top: 0px; } }
 
@@ -493,10 +526,10 @@ header {
     padding: 20px 200px; } }
 
 #blogs {
-  height: 60vh;
-  padding: 20px 100px; }
+  padding: 20px 50px 50px 50px; }
   #blogs .blog {
-    height: 110px; }
+    height: 110px;
+    padding-left: 20px; }
     #blogs .blog div:nth-child(1) {
       display: flex;
       align-items: flex-end; }
@@ -504,7 +537,14 @@ header {
         padding-left: 20px;
         padding-bottom: 2px; }
     #blogs .blog .blog_title {
-      margin: 10px 0; }
+      margin: 10px 0px;
+      padding-left: 10px; }
+
+@media (min-width: 1024px) {
+  #blogs {
+    padding: 20px 100px 50px 100px; }
+    #blogs .blog .blog_title {
+      padding-left: 30px; } }
 
 footer {
   padding: 0 50px;
@@ -538,7 +578,7 @@ footer {
 
 .sq1_container {
   position: relative;
-  width: 100px; }
+  width: 100%; }
   .sq1_container .sq1 {
     position: absolute;
     top: 200px;
@@ -558,6 +598,14 @@ footer {
     width: 120px;
     z-index: 0; }
 
+@media (min-width: 1440px) {
+  .sq1_container .sq1 {
+    width: 400px; }
+  .sq2_container {
+    width: 100%; }
+    .sq2_container .sq2 {
+      width: 200px; } }
+
 #loading {
   width: 100vw;
   height: 100vh;
@@ -575,3 +623,15 @@ footer {
 .loaded {
   animation: hideLoading 1s linear 0s;
   animation-fill-mode: forwards; }
+
+@media (min-width: 768px) {
+  .loadning video {
+    width: 500px; } }
+
+@media (min-width: 768px) {
+  #loading video {
+    width: 500px; } }
+
+@media (min-width: 768px) {
+  #loading video {
+    width: 500px; } }

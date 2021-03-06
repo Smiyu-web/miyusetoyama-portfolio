@@ -1,5 +1,4 @@
 #aboutme {
-  // padding-bottom: 0;
   width: 100%;
   height: 100vh;
   padding-left: 50px;
@@ -14,7 +13,7 @@
   }
 
   h1 {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 
   h5 {
@@ -29,7 +28,7 @@
     grid-template-rows: auto;
     grid-column-gap: 1.3em;
 
-    margin-top: 20px;
+    margin-top: 50px;
 
     div {
       width: 100px;
@@ -60,14 +59,15 @@
       justify-content: flex-end;
 
       img {
-        width: 450px;
+        width: 550px;
       }
     }
 
     .container {
       display: flex;
       justify-content: space-between;
-      padding: 0 50px;
+      padding-right: 100px;
+      padding-left: 50px;
 
       h5 {
         width: 50%;
@@ -75,6 +75,8 @@
 
       .profile {
         margin-top: 0px;
+        grid-column-gap: 2em;
+
     
         div {
           width: 100px;
@@ -96,12 +98,12 @@
 
     .img_container {
       img {
-        width: 500px;
+        width: 600px;
       }
     }
 
-    .aboutme_container {
-      padding: 0 100px;
+    h1 {
+      padding: 30px 0;
     }
 
     .container {
@@ -118,8 +120,8 @@
         }
     
         h6 {
-          &:nth-child(1) {
-            margin-top: 0px;
+          &:nth-child(2) {
+            padding-left: 30px;
           }
         }
       }
@@ -132,16 +134,16 @@
 
     .img_container {
       img {
-        width: 1000px;
+        width: 900px;
       }
     }
 
     h1 {
-      padding: 0;
+      padding-bottom: 60px;
     }
 
     .aboutme_container {
-      padding: 0 100px;
+      padding: 0 200px;
     }
 
     .container {
@@ -151,11 +153,11 @@
       }
 
       .profile {
-        grid-column-gap: 3em;
+        grid-column-gap: 5em;
     
         div {
-          width: 150px;
-          margin-bottom: 15px;
+          width: 250px;
+          margin-bottom: 30px;
         }
     
         h6 {
