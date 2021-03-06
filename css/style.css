@@ -502,7 +502,8 @@ header {
       display: flex; }
     #works .sliders .slide_left .work_title {
       writing-mode: vertical-rl;
-      margin-top: 20px; }
+      margin-top: 20px;
+      margin-left: 70px; }
     #works .sliders .slide_left .work_date {
       writing-mode: vertical-rl;
       margin-top: -30px;
@@ -525,7 +526,9 @@ header {
 
 @media (min-width: 1440px) {
   #works {
-    padding: 20px 200px; } }
+    padding: 20px 200px; }
+    #works .sliders .slide_right .work_container .work_date {
+      margin-top: 50px; } }
 
 #blogs {
   padding: 20px 50px 50px 50px; }
@@ -583,7 +586,7 @@ footer {
   width: 100%; }
   .sq1_container .sq1 {
     position: absolute;
-    top: 200px;
+    top: 0px;
     left: -50px;
     transform: rotate(50deg);
     width: 200px;
