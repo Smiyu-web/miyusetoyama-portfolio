@@ -267,25 +267,23 @@ header {
     left: 200px; } }
 
 @media (min-width: 1440px) {
-  #hero .img_container {
-    margin-right: 200px;
-    padding-top: 300px; }
-    #hero .img_container img {
-      width: 800px;
-      right: 150px; }
-  #hero .logo_container img {
-    top: 600px;
-    left: 180px;
-    width: 850px; }
-  #hero .circle {
+  #hero .img_container img {
     width: 600px;
-    height: 600px;
+    top: 140px;
+    right: 150px; }
+  #hero .logo_container img {
     top: 550px;
-    left: 400px; }
+    left: 130px;
+    width: 750px; }
+  #hero .circle {
+    width: 500px;
+    height: 500px;
+    top: 350px;
+    left: 300px; }
   #hero .triangle {
-    width: 700px;
+    width: 500px;
     top: 100px;
-    left: 500px; } }
+    left: 300px; } }
 
 #sidebar {
   position: fixed;
@@ -474,20 +472,23 @@ header {
 
 @media (min-width: 1440px) {
   #aboutme .img_container img {
-    width: 900px; }
+    width: 600px; }
   #aboutme h1 {
     padding-bottom: 60px; }
   #aboutme .aboutme_container {
-    padding: 0 200px; }
-  #aboutme .container h5 {
-    width: 50%; }
-  #aboutme .container .profile {
-    grid-column-gap: 5em; }
-    #aboutme .container .profile div {
-      width: 250px;
-      margin-bottom: 30px; }
-    #aboutme .container .profile h6:nth-child(1) {
-      margin-top: 0px; } }
+    padding: 0 100px; }
+  #aboutme .container {
+    padding-right: 0px;
+    padding-left: 0px; }
+    #aboutme .container h5 {
+      width: 50%; }
+    #aboutme .container .profile {
+      grid-column-gap: 5em; }
+      #aboutme .container .profile div {
+        width: 200px;
+        margin-bottom: 30px; }
+      #aboutme .container .profile h6:nth-child(1) {
+        margin-top: 0px; } }
 
 #works {
   height: 100%;

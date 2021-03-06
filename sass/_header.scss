@@ -147,38 +147,73 @@ header {
   }
 }
 
+// @media (min-width: 1440px) {
+//   #hero {
+//     .img_container {
+//       margin-right: 200px;
+//       padding-top: 300px;
+
+//       img {
+//         width: 800px;
+//         right: 150px;
+//       }
+//     }
+
+//     .logo_container {
+//       img {
+//         top: 600px;
+//         left: 180px;
+//         width: 850px;
+//       }
+//     }
+
+//     .circle {
+//       width: 600px;
+//       height: 600px;
+//       top: 550px;
+//       left: 400px;
+
+//     }
+
+//     .triangle {
+//       width: 700px;
+//       top: 100px;
+//       left: 500px;
+//     }
+//   }
+// }
 @media (min-width: 1440px) {
   #hero {
     .img_container {
-      margin-right: 200px;
-      padding-top: 300px;
+      // margin-right: 200px;
+      // padding-top: 0px;
 
       img {
-        width: 800px;
+        width: 600px;
+        top: 140px;
         right: 150px;
       }
     }
 
     .logo_container {
       img {
-        top: 600px;
-        left: 180px;
-        width: 850px;
+        top: 550px;
+        left: 130px;
+        width: 750px;
       }
     }
 
     .circle {
-      width: 600px;
-      height: 600px;
-      top: 550px;
-      left: 400px;
-
+      width: 500px;
+      height: 500px;
+      top: 350px;
+      left: 300px;
     }
 
     .triangle {
-      width: 700px;
+      width: 500px;
       top: 100px;
-      left: 500px;
+      left: 300px;
     }
   }
 }

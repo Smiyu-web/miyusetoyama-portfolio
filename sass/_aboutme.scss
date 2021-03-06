@@ -134,7 +134,8 @@
 
     .img_container {
       img {
-        width: 900px;
+        // width: 900px;
+        width: 600px;
       }
     }
 
@@ -143,11 +144,15 @@
     }
 
     .aboutme_container {
-      padding: 0 200px;
+      // padding: 0 200px;
+      padding: 0 100px;
+
     }
 
     .container {
       // display: block;
+      padding-right: 0px;
+      padding-left: 0px;
       h5 {
         width: 50%;
       }
@@ -156,7 +161,8 @@
         grid-column-gap: 5em;
     
         div {
-          width: 250px;
+          // width: 250px;
+          width: 200px;
           margin-bottom: 30px;
         }
     
